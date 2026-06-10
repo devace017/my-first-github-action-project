@@ -7,4 +7,6 @@ jobs:
         - name: Print Greeting
           run: echo "Hello World"
         - name: Say Bye!
-          run: echo "Good Bye"
+          run: |
+              echo "Congrats Ace on completing the first github action workflow"
+              echo "Good Bye!"
